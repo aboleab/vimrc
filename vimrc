@@ -13,6 +13,7 @@ Plug 'plasticboy/vim-markdown'
 Plug 'Raimondi/delimitMate'
 Plug 'vim-scripts/taglist.vim'
 Plug 'scrooloose/nerdtree'
+Plug 'lyuts/vim-rtags'
 
 call plug#end()
 
@@ -31,8 +32,8 @@ set fileformats=unix,dos
 set nowrap
 set nobackup
 set nu
-set ts=2
-set sw=2
+set ts=4
+set sw=4
 set expandtab
 set autoindent
 set pastetoggle=<f3>
@@ -40,3 +41,4 @@ au FileType python let b:delimitMate_nesting_quotes = ['"']
 
 " Self
 set hlsearch
+set tags=tags;
