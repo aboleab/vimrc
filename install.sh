@@ -7,7 +7,7 @@ if [ -d "~/.vimrc" ]; then
 fi
 
 curl -fsLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-curl -fsLo ~/.vimrc https://raw.githubusercontent.com/4679/vimrc/master/vimrc
+curl -fsLo ~/.vimrc https://raw.githubusercontent.com/aboleab/vimrc/master/vimrc
 
 vim +PlugInstall
 
