@@ -11,6 +11,8 @@ Plug 'godlygeek/tabular'
 Plug 'luochen1990/rainbow'
 Plug 'plasticboy/vim-markdown'
 Plug 'Raimondi/delimitMate'
+Plug 'vim-scripts/taglist.vim'
+Plug 'scrooloose/nerdtree'
 
 call plug#end()
 
@@ -35,3 +37,6 @@ set expandtab
 set autoindent
 set pastetoggle=<f3>
 au FileType python let b:delimitMate_nesting_quotes = ['"']
+
+" Self
+set hlsearch
